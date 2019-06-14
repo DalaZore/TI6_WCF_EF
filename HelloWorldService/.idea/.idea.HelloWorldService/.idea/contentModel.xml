@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ContentModelStore">
+    <e p="C:\Users\Cola\.Rider2018.3\config\consoles\db" t="IncludeRecursive" />
+    <e p="C:\Users\Cola\.Rider2018.3\config\extensions" t="IncludeRecursive" />
+    <e p="C:\Users\Cola\.Rider2018.3\system\extResources" t="IncludeRecursive" />
+    <e p="C:\Users\Cola\.Rider2018.3\system\resharper-host\local\Transient\ReSharperHost\v183\SolutionCaches\_HelloWorldService.-2134512628.00" t="ExcludeRecursive" />
+    <e p="D:\Rider\_CASESTUDY\ServiceLibrary\Client" t="IncludeRecursive">
+      <e p="App.config" t="Include" />
+      <e p="bin" t="ExcludeRecursive" />
+      <e p="Client.csproj" t="IncludeRecursive" />
+      <e p="obj" t="ExcludeRecursive" />
+      <e p="packages.config" t="Include" />
+      <e p="Program.cs" t="Include" />
+      <e p="Properties" t="Include">
+        <e p="AssemblyInfo.cs" t="Include" />
+      </e>
+    </e>
+    <e p="D:\Rider\_CASESTUDY\ServiceLibrary\HelloWorldService" t="IncludeRecursive">
+      <e p="App.config" t="Include" />
+      <e p="bin" t="ExcludeRecursive" />
+      <e p="HelloWorldService.csproj" t="IncludeRecursive" />
+      <e p="HelloWorldService.sln" t="IncludeFlat" />
+      <e p="IService.cs" t="Include" />
+      <e p="obj" t="ExcludeRecursive" />
+      <e p="packages" t="ExcludeRecursive" />
+      <e p="packages.config" t="Include" />
+      <e p="Properties" t="Include">
+        <e p="AssemblyInfo.cs" t="Include" />
+      </e>
+      <e p="Service.cs" t="Include" />
+    </e>
+    <e p="D:\Rider\_CASESTUDY\ServiceLibrary\HostAnwendung" t="IncludeRecursive">
+      <e p="App.config" t="Include" />
+      <e p="bin" t="ExcludeRecursive" />
+      <e p="HostAnwendung.csproj" t="IncludeRecursive" />
+      <e p="obj" t="ExcludeRecursive" />
+      <e p="packages.config" t="Include" />
+      <e p="Program.cs" t="Include" />
+      <e p="Properties" t="Include">
+        <e p="AssemblyInfo.cs" t="Include" />
+      </e>
+    </e>
+    <e p="D:\Rider\chat\chat\HelloWorldService" t="IncludeRecursive">
+      <e p="HelloWorldService.csproj" t="IncludeRecursive" />
+    </e>
+  </component>
+</project>

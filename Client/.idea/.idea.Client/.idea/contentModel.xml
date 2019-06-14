@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ContentModelStore">
+    <e p="C:\Users\Cola\.Rider2018.3\config\consoles\db" t="IncludeRecursive" />
+    <e p="C:\Users\Cola\.Rider2018.3\config\extensions" t="IncludeRecursive" />
+    <e p="C:\Users\Cola\.Rider2018.3\system\extResources" t="IncludeRecursive" />
+    <e p="C:\Users\Cola\.Rider2018.3\system\resharper-host\local\Transient\ReSharperHost\v183\SolutionCaches\_Client.2059453941.00" t="ExcludeRecursive" />
+    <e p="D:\Rider\OOP2_10052019\ServiceLibrary\ServiceLibrary\Client" t="IncludeFlat" />
+  </component>
+</project>

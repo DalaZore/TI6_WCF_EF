@@ -1,0 +1,42 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HelloWorldService", "HelloWorldService.csproj", "{C7DF3C30-1362-437E-89D1-743E79736010}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HostClient", "..\Client\Client.csproj", "{1BE6D93B-C141-4CCA-9516-1128AC4D8DD9}"
+	ProjectSection(ProjectDependencies) = postProject
+		{C7DF3C30-1362-437E-89D1-743E79736010} = {C7DF3C30-1362-437E-89D1-743E79736010}
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HostAnwendung", "..\HostAnwendung\HostAnwendung.csproj", "{B68D6EAA-925E-418B-A553-DBD5DF5F6CF7}"
+	ProjectSection(ProjectDependencies) = postProject
+		{C7DF3C30-1362-437E-89D1-743E79736010} = {C7DF3C30-1362-437E-89D1-743E79736010}
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HelloWorldService", "..\..\..\chat\chat\HelloWorldService\HelloWorldService.csproj", "{C7DF3C30-1362-437E-89D1-743E79736010}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C7DF3C30-1362-437E-89D1-743E79736010}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C7DF3C30-1362-437E-89D1-743E79736010}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C7DF3C30-1362-437E-89D1-743E79736010}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C7DF3C30-1362-437E-89D1-743E79736010}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1BE6D93B-C141-4CCA-9516-1128AC4D8DD9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1BE6D93B-C141-4CCA-9516-1128AC4D8DD9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1BE6D93B-C141-4CCA-9516-1128AC4D8DD9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1BE6D93B-C141-4CCA-9516-1128AC4D8DD9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B68D6EAA-925E-418B-A553-DBD5DF5F6CF7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B68D6EAA-925E-418B-A553-DBD5DF5F6CF7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B68D6EAA-925E-418B-A553-DBD5DF5F6CF7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B68D6EAA-925E-418B-A553-DBD5DF5F6CF7}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
